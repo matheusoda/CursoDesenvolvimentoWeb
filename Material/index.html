@@ -4,53 +4,61 @@
 <head>
     <title>Minha primeira página</title>
     <meta charset="utf-8">
+
+    <link href="CSS/style.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <h1>Título 1</h1>
+
+    <a href="#sovete_de_chocolate">Sorvete</a>
+
+    <h1 id="Titulo">Título 1</h1>
     <h2>Sub-título</h2>
 
-    <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-        when an unknown printer took a galley of type and scrambled it to make a type
-        specimen book. It has survived not only five centuries, but also the leap into
-        electronic typesetting, remaining essentially unchanged. It was popularised in
-        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-        and more recently with desktop publishing software like Aldus PageMaker including
-        versions of Lorem Ipsum.
-    </p>
+    <div id="paragrafos">
+        <p id="principal">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in
+            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including
+            versions of Lorem Ipsum.
+        </p>
 
-    <p>
-        Esse é um <strong>texto em negrito</strong>
-    </p>
+        <p class="texto_verde">
+            Esse é um <strong>texto em negrito</strong>
+        </p>
 
-    <p>
-        Esse é um <em>texto em Itálico</em>
-    </p>
-    <p>
-        Esse é um <mark> texto com marcação</mark>
-    </p>
+        <p class="texto_verde">
+            Esse é um <em>texto em Itálico</em>
+        </p>
+        <p class="texto_verde">
+            Esse é um <mark> texto com marcação</mark>
+        </p>
 
-    <p>
-        Esse um texto <small> com a tag small</small>
-    </p>
+        <p>
+            Esse um texto <small> com a tag small</small>
+        </p>
+        <div class="subDiv">
+        <p>
+            Esse é um <del> texto que foi removido </del> e substituído por esse
+        </p>
 
-    <p>
-        Esse é um <del> texto que foi removido </del> e substituído por esse
-    </p>
+        <p>
+            Esse é um <ins>texto que foi inserido </ins>
+        </p>
 
-    <p>
-        Esse é um <ins>texto que foi inserido </ins>
-    </p>
-
-    <p>
-        Esse é um texto <sub>subscript</sub>
-    </p>
-
-    <p>
-        Esse é um <sup>texto superscript</sup>
-    </p>
+        <p>
+            Esse é um <sub>texto subscript</sub>
+        </p>
+        </div>
+        <p>
+            Esse é um <sup>texto superscript</sup>
+        </p>
+    </div>
 
     <a href="sobre.html">Sobre ProgramadorBr</a>
     <br>
@@ -58,7 +66,7 @@
     <img src="data:image/jpeg;base64,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" alt="Sovete de morango" width="200">
     <br>
 
-    <a href="https://www.peixeurbano.com.br/belo-horizonte/kerobis-tupi/rodizio-de-sorvete-e-acai">
+    <a id="sovete_de_chocolate" href="https://www.peixeurbano.com.br/belo-horizonte/kerobis-tupi/rodizio-de-sorvete-e-acai">
         <img src="imagens/sorveteChocolate.jpg" alt="Sorvete de chocolate" height="150" >
     </a>
 
@@ -99,6 +107,15 @@
         </tr>
 
     </table>
+
+
+    <div id="cm"></div>
+    <div id="mm"></div>
+    <div id="in"></div>
+    <div id="px"></div>
+    <div id="pt"></div>
+    <div id="pc"></div>
+
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
 </body>
