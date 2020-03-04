@@ -20,3 +20,19 @@ p{
   color: white;
   padding: 10px;
 }
+
+
+
+.voltar{
+  border: solid 1px rgb(80, 75, 75);
+  border-radius: 4px;
+  color: rgb(17, 219, 142);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.voltar:hover{
+  border: none;
+  background-color: rgb(17, 219, 142);
+  color: white;
+}
